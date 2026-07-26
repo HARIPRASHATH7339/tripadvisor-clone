@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Trip Advisor Clone
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- DESKTOP NAVBAR -->
+
+  <div class="header">
+    <div class="navbar">
+      <img class="tripAdvisor-logo" src="images/wordmark.svg">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="navbar__buttons">
+        <button class="navbar__plan-AI">Plan with AI</button>
+        <button class="hide-tablet">Discover</button>
+        <button class="hide-tablet">Review</button>
+        <button class="hide-tablet">More</button>
+        <button class="language">
+          <img class="globe" src="images/globe.png">
+          <span class="seperator"></span> INR</button>
+        <button class="navbar__sign-in-button">Sign in</button>
+      </div>
+    </div>
+
+    <!-- MOBILE NAVBAR -->
+
+    <div class="mobile-navbar">
+
+      <button class="mobile-menu-button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <img class="mobile-logo" src="images/wordmark.svg">
+
+
+      <div class="mobile-icons">
+        <button class="mobile-ai-button">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </button>
+
+        <button>
+          <i class="fa-regular fa-user"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="categories">
+    <button>Things to Do</button>
+    <button>Hotels</button>
+    <button>Restaurants</button>
+    <button>Forums</button>
+  </div>
+
+  <main class="main-content">
+    <div class="where-to">
+      <h1>Where to?</h1>
+      <div class="where-to__elements">
+        <button class="search-all"><i class="fa-solid fa-house"></i>Search All</button>
+        <button><i class="fa-solid fa-camera"></i>Things to Do</button>
+        <button><i class="fa-solid fa-bed"></i>Hotels</button>
+        <button><i class="fa-solid fa-utensils"></i>Restaurants</button>
+      </div>
+      <div class="where-to__search">
+        <div class="where-to__search__input">
+          <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+          <input type="text" placeholder="Places to go, things to do, hotels...">
+        </div>
+        <div class="where-to__search__buttons">
+          <button class="ask-ai-button">Ask AI</button>
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="travel-banner">
+      <div class="travel-banner__img">
+        <img src="images/travel.jpg">
+      </div>
+
+      <div class="travel-banner__text">
+        <h1>Find things to do for everything you're into</h1>
+        <p> Browse 400,000+ experiences and book with us.</p>
+        <button>Book now</button>
+      </div>
+    </div>
+
+    <div class="interesting-things">
+      <h3>Find things to do by interest</h3>
+        <p>Whatever you're into, we've got it</p>
+        <div class="interesting-things-cards">
+          <div class="interesting-things-c1">
+            <img src="images/c1.jpg">
+            <h1>Outdoors</h1>
+          </div>
+          <div class="interesting-things-c1">
+            <img src="images/c2.jpg">
+            <h1>Food</h1>
+          </div>
+          <div class="interesting-things-c1">
+            <img src="images/c3.jpg">
+            <h1>Culture</h1>
+          </div>
+          <div class="interesting-things-c1">
+            <img src="images/c4.jpg">
+            <h1>water</h1>
+          </div>
+        </div>
+    </div>
+
+    <div class="water-exp">
+      <h3>Explore experiences near Chennai (Madras)</h3>
+      <p class="water-exp__subtitle">Can’t-miss picks near you</p>
+      <div class="water-exp__cards-container">
+        <div class="water-exp__cards">
+          <div class="cards-img">
+            <img src="images/w1.jpg">
+            <button class="fav-button">
+              <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            </button>
+          </div>
+          <div class="cards-description">
+            <button class="location">Mahabalipuram</button>
+            <h4>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h4>
+            <p class="ratings">
+              <span class="score">4.8</span>
+              <span class="dots">●●●●●</span>
+              <span class="reviews">(1,013)</span>
+            </p>
+            <h5>from ₹8,500 per group</h5>
+          </div>
+        </div>
+
+
+        <div class="water-exp__cards">
+          <div class="cards-img">
+            <img src="images/w2.jpg">
+            <button class="fav-button">
+              <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            </button>
+          </div>
+          <div class="cards-description">
+            <button class="location">Georgetown</button>
+            <h4>Georgetown heritage walking tour of Chennai's first settlement</h4>
+            <p class="ratings">
+              <span class="score">5.0</span>
+              <span class="dots">●●●●●</span>
+              <span class="reviews">(155)</span>
+            </p>
+            <h5>from ₹3,951 per adult</h5>
+          </div>
+        </div>
+
+        <div class="water-exp__cards">
+          <div class="cards-img">
+            <img src="images/w3.jpg">
+            <button class="fav-button">
+              <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            </button>
+          </div>
+          <div class="cards-description">
+            <button class="location">Chennai Market Places</button>
+            <h4>Chennai Market Tour & Cooking Class in a Local Home with Meena</h4>
+            <p class="ratings">
+              <span class="score">4.9</span>
+              <span class="dots">●●●●●</span>
+              <span class="reviews">(145)</span>
+            </p>
+            <h5>from ₹5,000 per adult</h5>
+          </div>
+        </div>
+
+        <div class="water-exp__cards">
+          <div class="cards-img">
+            <img src="images/w4.jpg">
+            <button class="fav-button">
+              <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            </button>
+          </div>
+          <div class="cards-description">
+            <button class="location">Mylapore</button>
+            <h4>Gods of Mylapore walking tour: Journey Through Living Traditions</h4>
+            <p class="ratings">
+              <span class="score">4.9</span>
+              <span class="dots">●●●●●</span>
+              <span class="reviews">(1,655)</span>
+            </p>
+            <h5>from ₹2,500 per adult</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="iconic-places">
+      <h3>Iconic places you need to see</h3>
+        <div class="iconic-places-cards">
+          <div class="iconic-places-c">
+            <img src="images/i1.jpg">
+            <h1>Rome, Italy</h1>
+          </div>
+          <div class="iconic-places-c">
+            <img src="images/i2.jpg">
+            <h1>paris, France</h1>
+          </div>
+          <div class="iconic-places-c">
+            <img src="images/i3.jpg">
+            <h1>Las Vegas, NV</h1>
+          </div>
+          <div class="iconic-places-c">
+            <img src="images/i4.jpg">
+            <h1>London,UK</h1>
+          </div>
+        </div>
+    </div>
+
+  </main>
+
+  
+<div class="footer">
+    <div class="footer-s1">
+      <div class="footer-s1__f1">
+        <h4>About Tripadvisor </h4>
+        <p>About Us</p>
+        <p>Press</p>
+        <p>Resources and Policies</p>
+        <p>Careers</p>
+        <p>Trust & Safety</p>
+        <p>Contact us</p>
+        <p>Tripadvisor Technology Blog</p>
+      </div>
+
+      <div class="footer-s1__f1">
+        <h4>Explore</h4>
+        <p>Write a review</p>
+        <p>Add a Place</p>
+        <p>Join</p>
+        <p>Travellers' Choice</p>
+        <p>Help Centre</p>
+        <p>Travel Stories</p>
+      </div>
+
+      <div class="footer-s1__f1">
+        <h4>Do Business With Us</h4>
+        <p>Owners & DMO/CVB</p>
+        <p>Business Advantage</p>
+        <p>Sponsored Placements</p>
+        <p>Advertise with Us</p>
+        <p>Access our Content API</p>
+
+        <h4>Get The App</h4>
+        <p>iPhone App</p>
+        <p>Android App</p>
+      </div>
+
+      <div class="footer-s1__f2">
+        <p>Tripadvisor Sites</p>
+        <p>Book tours and attraction tickets on<span>Viator</span></p>
+      </div>
+    </div>
+
+    <div class="footer-s2">
+      <img class="logo" src="images/logo.svg">
+      <div class="footer-s2-f1">
+        <div class="terms">
+          <p class="terms-tag">&copy; 2026 Tripadvisor LLC All rights reserved.</p>
+          <div class="terms-1">
+            <p>Terms of Use</p>
+            <p>Privacy and Cookies Statement</p>
+            <p>Cookie consent</p>
+            <p>How the site works</p>
+            <p>Contact us</p>
+            <p>Accessibility Statement</p>
+          </div>
+        </div>
+
+        <div class="footer-social-media">
+          <i class="fa-brands fa-facebook" style="color: rgb(0, 0, 0);"></i>
+          <i class="fa-brands fa-x-twitter" style="color: rgb(0, 0, 0);"></i>
+          <i class="fa-brands fa-instagram" style="color: rgb(0, 0, 0);"></i>
+          <i class="fa-brands fa-youtube" style="color: rgb(0, 0, 0);"></i>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+  </div>
+
+</body>
